@@ -1,0 +1,490 @@
+
+@font-face {
+    font-family: "Varela";
+    src: url("./assets/fonts/Varela_Round/VarelaRound-Regular.ttf");
+}
+
+@font-face {
+    font-family: "Urbanist";
+    src: url("./assets/fonts/Urbanist/Urbanist-VariableFont_wght.ttf");
+} 
+
+@font-face {
+    font-family: "News Cycle";
+    src: url("./assets/fonts/News_Cycle/NewsCycle-Regular.ttf");
+}
+
+
+
+
+html{
+
+    scroll-behavior: smooth;
+
+}
+
+body{
+
+    margin: 0px;
+    padding: 0px;
+
+    /* background-color: linear-gradient(to bottom, #FBF8EA, #227ECA); */
+
+}
+
+header{
+
+    position: fixed;
+
+    background-color: #6aa7d5;
+    border-radius: 50px;
+
+    width: 95%;
+    height: 75px;
+
+    padding: 15px;
+    margin-top: 15px;
+    margin-left: 15px;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    overflow: hidden;
+
+    
+    h1{
+
+        color: #FBF8EA;
+
+        font-family: "Urbanist";
+        font-weight: 300;
+
+        padding-left: 150px;
+
+    }
+
+    .menu{
+
+        display: flex;
+        flex-direction: column;
+
+        .linha-hamburguer{
+
+            display: none;
+
+            background-color: #FBF8EA;
+    
+            height: 2px;
+            width: 50px;
+
+            margin: 7px;
+    
+        }
+
+    }
+
+    a{
+
+        color: #FBF8EA;
+
+        text-decoration: none;
+
+        padding: 15px;
+
+        font-family: "Urbanist";
+
+
+
+    }
+
+}
+
+#linha{
+
+    margin-left: 275px;
+    margin-top: 250px;
+
+
+    height: 1px;
+    width: 50%;
+
+    background-color: #227ECA;
+
+}
+
+
+.bloco1{
+
+    
+    display: flex;
+    flex-direction: column;
+
+    justify-content: space-around;
+    align-items: center;
+
+    padding-top: 250px;
+    background: linear-gradient(to bottom,    #FBF8EA 0%, #FBF8EA 45%, #6aa7d5 75%, #227ECA 85%,#227ECA 100%);
+
+    h1{
+
+        color: #227ECA;
+
+        font-size: 75px;
+
+        font-family: "Varela";
+
+    }
+
+    h3{
+
+        color: #227ECA;
+
+        font-size: 31px;
+
+        margin-bottom: -25px;
+        margin-top: -50px;
+
+        font-family: "Varela";
+
+    }
+
+    #agua{
+
+        z-index: 0;
+
+        width: 100%;
+        height: 400px;
+
+        padding-top: 30px;
+
+    }
+
+    #calcada{
+
+        z-index: 1;
+
+        margin-top: -215px;
+
+        width: 100%;
+        height: 275px;
+
+    }
+
+}
+
+.bloco2{
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+
+    padding: 200px 100px;
+
+    background-color: #FBF8EA;  
+
+    
+        
+    background: linear-gradient(to bottom, #227eca 0%, #4991cf 5%, #68a4d4 10%, #87b6d8 15%, #fbf8ea 45%);
+
+    h2{
+
+        font-size: 70px;
+
+        color: #227ECA;
+
+        font-family: "Urbanist";
+
+    }
+
+    p{
+
+        font-size: 25px;
+        line-height: 50px;
+
+        color: #227ECA;
+
+        font-family: "News Cycle";
+
+    }
+
+}
+
+.bloco3{
+
+    padding: 100px;
+
+    background-color: #FBF8EA;  
+
+    text-align: end;
+
+    
+    /* background-color: linear-gradient(to bottom, #227ECA 1, #FBF8EA 1); */
+
+    h2{
+
+        font-size: 70px;
+
+        color: #227ECA;
+
+        
+        font-family: "Urbanist";
+
+        margin-top: -100px;
+
+    }
+
+    p{
+
+        font-size: 25px;
+        line-height: 50px;
+
+        color: #227ECA;
+
+        
+        font-family: "News Cycle";
+
+    }
+
+}
+
+.bloco4{
+
+    padding: 275px 100px;
+
+    background-color: #FBF8EA;  
+
+    
+    /* background-color: linear-gradient(to bottom, #227ECA 1, #FBF8EA 1); */
+
+    h2{
+
+        font-size: 70px;
+
+        color: #227ECA;
+
+        
+        font-family: "Urbanist";
+
+        margin-top: -150px;
+
+    }
+
+    p{
+
+        font-size: 25px;
+        line-height: 50px;
+
+        color: #227ECA;
+
+        
+        font-family: "News Cycle";
+
+    }
+
+}
+
+.bloco5{
+
+    padding: 275px 100px;
+
+    background-color: #FBF8EA;  
+
+    text-align: end;
+
+    
+    /* background-color: linear-gradient(to bottom, #227ECA 1, #FBF8EA 1); */
+
+    h2{
+
+        font-size: 70px;
+
+        color: #227ECA;
+
+        font-family: "Urbanist";
+
+        margin-top: -350px;
+
+    }
+
+    p{
+
+        font-size: 25px;
+        line-height: 50px;
+
+        color: #227ECA;
+
+        font-family: "News Cycle";
+
+    }
+
+}
+
+
+.bloco6{
+
+    padding: 275px 100px;
+
+    background-color: #FBF8EA;  
+
+    
+    /* background-color: linear-gradient(to bottom, #227ECA 1, #FBF8EA 1); */
+
+    h2{
+
+        font-size: 70px;
+
+        color: #227ECA;
+
+        font-family: "Urbanist";
+
+        margin-top: -350px;
+
+    }
+
+    p{
+
+        font-size: 25px;
+        line-height: 50px;
+
+        color: #227ECA;
+
+        font-family: "News Cycle";
+
+    }
+
+}
+
+
+.bloco7{
+
+    padding: 200px 100px;
+
+    background: linear-gradient(to bottom, #FBF8EA, #9FC4DC , #76ADD6);
+
+
+    text-align: end;
+
+    
+    /* background-color: linear-gradient(to bottom, #227ECA 1, #FBF8EA 1); */
+
+    h2{
+
+        font-size: 70px;
+
+        color: #227ECA;
+
+        font-family: "Urbanist";
+
+        margin-top: -300px;
+
+    }
+
+    p{
+
+        font-size: 25px;
+        line-height: 50px;
+
+        color: #227ECA;
+
+        font-family: "News Cycle";
+
+    }
+
+}
+
+#linha-footer{
+
+    height: 1px;
+    width: 100%;
+
+    background-color: #113E64;
+
+}
+
+footer{
+
+    /* background-color: linear-gradient(to bottom, #5C9FD3, #174C77); */
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+
+    background: linear-gradient(to bottom, #5C9FD2, #165283);
+
+    padding: 25px 35px;
+    padding-bottom: 75px;
+
+    height: 300px;
+
+    h3{
+
+        color: #FBF8EA;
+
+        font-size: 35px;
+
+        font-family: "Urbanist";
+
+    }
+
+    a{
+
+        color: #FBF8EA;
+
+        text-decoration: none;
+
+        font-family: "Urbanist";
+
+
+    }
+
+    .botoes-footer1{
+
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+        align-items: center;
+
+        width: 100%;
+
+    }
+
+    .botoes-footer2{
+
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+        align-items: center;
+
+        width: 100%;
+
+
+    }
+
+
+}
+
+a{
+
+    border-radius: 50px;
+    padding: 15px;
+
+}
+
+a:hover{
+
+    background-color: #87b6d8;
+
+    font-size: 110%;
+
+    transition: 0.3s;
+
+}
+
+a:active{
+
+    transition: 0.3s ease;
+
+}
+
