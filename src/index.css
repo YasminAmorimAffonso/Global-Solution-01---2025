@@ -1,4 +1,3 @@
-
 @font-face {
     font-family: "Varela";
     src: url("./assets/fonts/Varela_Round/VarelaRound-Regular.ttf");
@@ -7,7 +6,7 @@
 @font-face {
     font-family: "Urbanist";
     src: url("./assets/fonts/Urbanist/Urbanist-VariableFont_wght.ttf");
-} 
+}
 
 @font-face {
     font-family: "News Cycle";
@@ -17,13 +16,13 @@
 
 
 
-html{
+html {
 
     scroll-behavior: smooth;
 
 }
 
-body{
+body {
 
     margin: 0px;
     padding: 0px;
@@ -32,7 +31,7 @@ body{
 
 }
 
-header{
+header {
 
     position: fixed;
 
@@ -52,8 +51,8 @@ header{
 
     overflow: hidden;
 
-    
-    h1{
+
+    h1 {
 
         color: #FBF8EA;
 
@@ -64,27 +63,20 @@ header{
 
     }
 
-    .menu{
+    .menu {
 
         display: flex;
         flex-direction: column;
 
-        .linha-hamburguer{
+        .linha-hamburguer {
 
             display: none;
 
-            background-color: #FBF8EA;
-    
-            height: 2px;
-            width: 50px;
-
-            margin: 7px;
-    
         }
 
     }
 
-    a{
+    a {
 
         color: #FBF8EA;
 
@@ -100,7 +92,7 @@ header{
 
 }
 
-#linha{
+#linha {
 
     margin-left: 275px;
     margin-top: 250px;
@@ -114,9 +106,9 @@ header{
 }
 
 
-.bloco1{
+.bloco1 {
 
-    
+
     display: flex;
     flex-direction: column;
 
@@ -124,9 +116,9 @@ header{
     align-items: center;
 
     padding-top: 250px;
-    background: linear-gradient(to bottom,    #FBF8EA 0%, #FBF8EA 45%, #6aa7d5 75%, #227ECA 85%,#227ECA 100%);
+    background: linear-gradient(to bottom, #FBF8EA 0%, #FBF8EA 45%, #6aa7d5 75%, #227ECA 85%, #227ECA 100%);
 
-    h1{
+    h1 {
 
         color: #227ECA;
 
@@ -136,7 +128,7 @@ header{
 
     }
 
-    h3{
+    h3 {
 
         color: #227ECA;
 
@@ -149,7 +141,7 @@ header{
 
     }
 
-    #agua{
+    #agua {
 
         z-index: 0;
 
@@ -160,7 +152,7 @@ header{
 
     }
 
-    #calcada{
+    #calcada {
 
         z-index: 1;
 
@@ -173,7 +165,7 @@ header{
 
 }
 
-.bloco2{
+.bloco2 {
 
     display: flex;
     flex-direction: column;
@@ -181,13 +173,13 @@ header{
 
     padding: 200px 100px;
 
-    background-color: #FBF8EA;  
+    background-color: #FBF8EA;
 
-    
-        
+
+
     background: linear-gradient(to bottom, #227eca 0%, #4991cf 5%, #68a4d4 10%, #87b6d8 15%, #fbf8ea 45%);
 
-    h2{
+    h2 {
 
         font-size: 70px;
 
@@ -197,7 +189,7 @@ header{
 
     }
 
-    p{
+    p {
 
         font-size: 25px;
         line-height: 50px;
@@ -210,92 +202,92 @@ header{
 
 }
 
-.bloco3{
+.bloco3 {
 
     padding: 100px;
 
-    background-color: #FBF8EA;  
+    background-color: #FBF8EA;
 
     text-align: end;
 
-    
+
     /* background-color: linear-gradient(to bottom, #227ECA 1, #FBF8EA 1); */
 
-    h2{
+    h2 {
 
         font-size: 70px;
 
         color: #227ECA;
 
-        
+
         font-family: "Urbanist";
 
         margin-top: -100px;
 
     }
 
-    p{
+    p {
 
         font-size: 25px;
         line-height: 50px;
 
         color: #227ECA;
 
-        
+
         font-family: "News Cycle";
 
     }
 
 }
 
-.bloco4{
+.bloco4 {
 
     padding: 275px 100px;
 
-    background-color: #FBF8EA;  
+    background-color: #FBF8EA;
 
-    
+
     /* background-color: linear-gradient(to bottom, #227ECA 1, #FBF8EA 1); */
 
-    h2{
+    h2 {
 
         font-size: 70px;
 
         color: #227ECA;
 
-        
+
         font-family: "Urbanist";
 
         margin-top: -150px;
 
     }
 
-    p{
+    p {
 
         font-size: 25px;
         line-height: 50px;
 
         color: #227ECA;
 
-        
+
         font-family: "News Cycle";
 
     }
 
 }
 
-.bloco5{
+.bloco5 {
 
     padding: 275px 100px;
 
-    background-color: #FBF8EA;  
+    background-color: #FBF8EA;
 
     text-align: end;
 
-    
+
     /* background-color: linear-gradient(to bottom, #227ECA 1, #FBF8EA 1); */
 
-    h2{
+    h2 {
 
         font-size: 70px;
 
@@ -307,7 +299,7 @@ header{
 
     }
 
-    p{
+    p {
 
         font-size: 25px;
         line-height: 50px;
@@ -321,16 +313,16 @@ header{
 }
 
 
-.bloco6{
+.bloco6 {
 
     padding: 275px 100px;
 
-    background-color: #FBF8EA;  
+    background-color: #FBF8EA;
 
-    
+
     /* background-color: linear-gradient(to bottom, #227ECA 1, #FBF8EA 1); */
 
-    h2{
+    h2 {
 
         font-size: 70px;
 
@@ -342,7 +334,7 @@ header{
 
     }
 
-    p{
+    p {
 
         font-size: 25px;
         line-height: 50px;
@@ -356,19 +348,19 @@ header{
 }
 
 
-.bloco7{
+.bloco7 {
 
     padding: 200px 100px;
 
-    background: linear-gradient(to bottom, #FBF8EA, #9FC4DC , #76ADD6);
+    background: linear-gradient(to bottom, #FBF8EA, #9FC4DC, #76ADD6);
 
 
     text-align: end;
 
-    
+
     /* background-color: linear-gradient(to bottom, #227ECA 1, #FBF8EA 1); */
 
-    h2{
+    h2 {
 
         font-size: 70px;
 
@@ -380,7 +372,7 @@ header{
 
     }
 
-    p{
+    p {
 
         font-size: 25px;
         line-height: 50px;
@@ -393,7 +385,7 @@ header{
 
 }
 
-#linha-footer{
+#linha-footer {
 
     height: 1px;
     width: 100%;
@@ -402,7 +394,7 @@ header{
 
 }
 
-footer{
+footer {
 
     /* background-color: linear-gradient(to bottom, #5C9FD3, #174C77); */
 
@@ -418,7 +410,7 @@ footer{
 
     height: 300px;
 
-    h3{
+    h3 {
 
         color: #FBF8EA;
 
@@ -428,7 +420,7 @@ footer{
 
     }
 
-    a{
+    a {
 
         color: #FBF8EA;
 
@@ -439,7 +431,7 @@ footer{
 
     }
 
-    .botoes-footer1{
+    .botoes-footer1 {
 
         display: flex;
         flex-direction: row;
@@ -450,7 +442,7 @@ footer{
 
     }
 
-    .botoes-footer2{
+    .botoes-footer2 {
 
         display: flex;
         flex-direction: row;
@@ -465,14 +457,14 @@ footer{
 
 }
 
-a{
+a {
 
     border-radius: 50px;
     padding: 15px;
 
 }
 
-a:hover{
+a:hover {
 
     background-color: #87b6d8;
 
@@ -482,9 +474,107 @@ a:hover{
 
 }
 
-a:active{
+a:active {
 
     transition: 0.3s ease;
 
 }
 
+@media (max-width: 850px) {
+
+    header {
+
+        width: 90%;
+
+        padding: 5px 15px;
+
+        overflow: hidden;
+
+        .menu {
+
+            .linha-hamburguer {
+
+                display: block;
+
+                background-color: #FBF8EA;
+
+                height: 2px;
+                width: 50px;
+
+                margin: 7px;
+
+            }
+
+        }
+
+        a {
+
+            display: none;
+
+
+
+        }
+
+    }
+
+    #linha {
+
+        margin-left: 125px;
+        margin-top: 250px;
+    
+    
+        height: 1px;
+        width: 50%;
+    
+        background-color: #227ECA;
+    
+    }
+    
+    
+    .bloco1 {
+    
+    text-align: center;
+    
+        padding-top: 350px;
+
+        background: linear-gradient(to bottom, #FBF8EA 0%, #FBF8EA 65%, #227ECA 85%, #227ECA 100%);
+    
+        h1 {
+    
+            font-size: 50px;
+    
+        }
+    
+        h3 {
+    
+            font-size: 20px;
+
+            margin-top: 0px;
+            margin-bottom: 100px;
+
+            max-width: 350px;
+    
+        }
+    
+        #agua {
+
+            height: 200px;
+    
+            padding-top: 30px;
+    
+        }
+    
+        #calcada {
+    
+            z-index: 1;
+    
+            margin-top: -215px;
+    
+            width: 100%;
+            height: 135px;
+    
+        }
+    
+    }
+
+}
