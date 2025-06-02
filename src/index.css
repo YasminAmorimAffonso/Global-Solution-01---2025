@@ -29,17 +29,6 @@ body {
 
 }
 
-li{
-
-    font-size: 25px;
-    line-height: 50px;
-
-    color: #227ECA;
-
-    font-family: "News Cycle";
-
-}
-
 header {
 
     position: fixed;
@@ -337,6 +326,17 @@ header {
 
         font-family: "News Cycle";
 
+    }
+
+    li{
+
+        font-size: 25px;
+        line-height: 50px;
+    
+        color: #227ECA;
+    
+        font-family: "News Cycle";
+    
     }
 
 }
