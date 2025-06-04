@@ -4,18 +4,19 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="./index.css">
+    <link rel="stylesheet" href="./css/index.css">
     <link rel="shortcut icon" href="./assets/imgs/gota.png">
     <title>GS 01</title>
+    <script src="./js/menu.js"></script>
 </head>
 
 <body>
 
-    <header>
+    <header class="cabecalho" id="cabecalho">
 
         <h1>Nome da empresa</h1>
 
-        <div>
+        <div class="secoes">
 
             <a href="#problema">Problema</a>
             <a href="#solucoes">Soluções</a>
@@ -23,6 +24,36 @@
             <a href="#publico">Público-alvo</a>
             <a href="#beneficios">Benefícios</a>
             <a href="#diaadia">No dia a dia</a>
+
+        </div>
+
+        <div class="hamburguer" id="hamburguer">
+
+            <div class="linha-hamburguer"></div>
+            <div class="linha-hamburguer"></div>
+            <div class="linha-hamburguer"></div>
+
+        </div>
+
+        <div>
+
+            <ul class="menu" id="menu">
+
+                <li>
+                    
+                    <a href="./index.html">Home</a>
+                
+                </li>
+
+                <div id="linha-menu"></div>
+
+                <li>
+                    
+                    <a href="quiz">Quiz</a>
+                
+                </li>
+
+            </ul>
 
         </div>
 
