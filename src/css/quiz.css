@@ -1,0 +1,144 @@
+@font-face {
+    font-family: "Varela";
+    src: url("../assets/fonts/Varela_Round/VarelaRound-Regular.ttf");
+}
+
+@font-face {
+    font-family: "Urbanist";
+    src: url("../assets/fonts/Urbanist/Urbanist-VariableFont_wght.ttf");
+}
+
+@font-face {
+    font-family: "News Cycle";
+    src: url("../assets/fonts/News_Cycle/NewsCycle-Regular.ttf");
+}
+
+
+
+
+html {
+
+    scroll-behavior: smooth;
+
+}
+
+body {
+
+    margin: 0px;
+    padding: 0px;
+
+}
+
+header {
+
+        display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    position: fixed;
+
+    background-color: #6aa7d5;
+    border-radius: 50px;
+
+    width: 95%;
+    height: 75px;
+
+    padding: 15px;
+    margin-top: 15px;
+    margin-left: 15px;
+
+
+
+    overflow: hidden;
+
+
+    h1 {
+
+        color: #FBF8EA;
+
+        font-family: "Urbanist";
+        font-weight: 300;
+
+        padding-left: 150px;
+
+    }
+
+
+
+    a {
+
+        color: #FBF8EA;
+
+        text-decoration: none;
+
+        padding: 15px;
+
+        font-family: "Urbanist";
+
+
+
+    }
+
+    .menu {
+
+        display: none;
+
+        list-style: none;
+        
+        margin: 0px;
+        padding: 0px;
+
+        justify-content: space-between;
+
+    }
+
+    .menu a {
+
+        color: #FBF8EA;
+
+        text-decoration: none;
+
+        padding: 15px 25px;
+
+        font-family: "Urbanist";
+
+        transition: 0.3s;
+
+        border-radius: 50px;
+    
+    }
+
+    .menu a:hover {
+
+        font-size: 120%;
+
+    }
+
+    .hamburguer {
+
+        display: none;
+
+        cursor: pointer;
+
+        flex-direction: column;
+        justify-content: space-between;
+
+        width: 30px;
+        height: 20px;
+
+    }
+
+    .hamburguer .linha-hamburguer {
+
+        width: 100%;
+        height: 3px;
+
+        background-color: #FBF8EA;
+
+        transition: 0.3s;
+
+        border-radius: 50px;
+
+    }
+
+}
