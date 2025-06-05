@@ -31,7 +31,7 @@ body {
 
 header {
 
-        display: flex;
+    display: flex;
     justify-content: space-between;
     align-items: center;
 
@@ -84,7 +84,7 @@ header {
         display: none;
 
         list-style: none;
-        
+
         margin: 0px;
         padding: 0px;
 
@@ -105,7 +105,7 @@ header {
         transition: 0.3s;
 
         border-radius: 50px;
-    
+
     }
 
     .menu a:hover {
@@ -143,6 +143,44 @@ header {
 
 }
 
+
+.cabecalho.azul {
+
+    background-color: #DEE7E6;
+
+    h1{
+
+        color: #227ECA;
+
+    }
+
+    a {
+
+        color: #227ECA;
+
+    }
+
+    .hamburguer.azul {
+
+        background-color: #DEE7E6;
+
+        a {
+
+            color: #227ECA;
+
+        }
+
+
+        #linha-menu {
+
+            background-color: #227ECA;
+
+        }
+
+    }
+
+}
+
 #linha {
 
     margin-left: 275px;
@@ -156,299 +194,596 @@ header {
 
 }
 
+section {
 
-.bloco1 {
+    .cores {
 
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
 
-    display: flex;
-    flex-direction: column;
+        width: 200px;
 
-    justify-content: space-around;
-    align-items: center;
+        position: fixed;
 
-    padding-top: 250px;
-    background: linear-gradient(to bottom, #FBF8EA 0%, #FBF8EA 45%, #6aa7d5 75%, #227ECA 85%, #227ECA 100%);
+        padding: 140px 75px;
 
-    h1 {
+        .gradient {
 
-        color: #227ECA;
+            background: linear-gradient(to bottom, #FBF8EA 0%, #FBF8EA 45%, #6aa7d5 75%, #227ECA 85%, #227ECA 100%);
 
-        font-size: 75px;
+            border: 2px solid #113E64;
+            border-radius: 50px;
 
-        font-family: "Varela";
+            height: 30px;
+            width: 30px;
+
+        }
+
+        .gradient:hover {
+
+            cursor: pointer;
+
+        }
+
+        .creme {
+
+            background-color: #FBF8EA;
+
+            border: 2px solid #113E64;
+            border-radius: 50px;
+
+            height: 30px;
+            width: 30px;
+
+        }
+
+        .creme:hover {
+
+            cursor: pointer;
+
+        }
+
+        .azul {
+
+            background-color: #75ADD6;
+
+            border: 2px solid #113E64;
+            border-radius: 50px;
+
+            height: 30px;
+            width: 30px;
+
+        }
+
+        .azul:hover {
+
+            cursor: pointer;
+
+        }
+
 
     }
 
-    h3 {
 
-        color: #227ECA;
+    .bloco1 {
 
-        font-size: 31px;
 
-        margin-bottom: -25px;
-        margin-top: -50px;
+        display: flex;
+        flex-direction: column;
 
-        font-family: "Varela";
+        justify-content: space-around;
+        align-items: center;
+
+        padding-top: 250px;
+        background: linear-gradient(to bottom, #FBF8EA 0%, #FBF8EA 45%, #6aa7d5 75%, #227ECA 85%, #227ECA 100%);
+
+        h1 {
+
+            color: #227ECA;
+
+            font-size: 75px;
+
+            font-family: "Varela";
+
+        }
+
+        h3 {
+
+            color: #227ECA;
+
+            font-size: 31px;
+
+            margin-bottom: -25px;
+            margin-top: -50px;
+
+            font-family: "Varela";
+
+        }
+
+        #agua {
+
+            z-index: 0;
+
+            width: 100%;
+            height: 400px;
+
+            padding-top: 30px;
+
+        }
+
+        #calcada {
+
+            z-index: 1;
+
+            margin-top: -215px;
+
+            width: 100%;
+            height: 275px;
+
+        }
 
     }
 
-    #agua {
+    .bloco1.creme {
 
-        z-index: 0;
+        background: #FBF8EA;
 
+    }
+
+    .bloco2.creme {
+
+        background: #FBF8EA;
+
+    }
+
+    .bloco8.creme {
+
+        background: #FBF8EA;
+
+    }
+
+
+
+    .bloco1.azul {
+
+        background: #75ADD6;
+
+        h1 {
+
+            color: #FBF8EA;
+
+        }
+
+        h3 {
+
+            color: #FBF8EA;
+
+        }
+
+    }
+
+    .bloco2.azul {
+
+        background: #75ADD6;
+
+        h2 {
+
+            color: #FBF8EA;
+
+        }
+
+        p {
+
+            color: #FBF8EA;
+
+        }
+
+    }
+
+    .bloco3.azul {
+
+        background: #75ADD6;
+
+        h2 {
+
+            color: #FBF8EA;
+
+        }
+
+        p {
+
+            color: #FBF8EA;
+
+        }
+
+    }
+
+    .bloco4.azul {
+
+        background: #75ADD6;
+
+        h2 {
+
+            color: #FBF8EA;
+
+        }
+
+        p {
+
+            color: #FBF8EA;
+
+        }
+
+    }
+
+    .bloco5.azul {
+
+        background: #75ADD6;
+
+        h2 {
+
+            color: #FBF8EA;
+
+        }
+
+        p {
+
+            color: #FBF8EA;
+
+        }
+
+    }
+
+    .bloco6.azul {
+
+        background: #75ADD6;
+
+        h2 {
+
+            color: #FBF8EA;
+
+        }
+
+        li {
+
+            color: #FBF8EA;
+
+        }
+
+    }
+
+    .bloco7.azul {
+
+        background: #75ADD6;
+
+        h2 {
+
+            color: #FBF8EA;
+
+        }
+
+        p {
+
+            color: #FBF8EA;
+
+        }
+
+    }
+
+    .bloco8.azul {
+
+        background: #75ADD6;
+
+        h2 {
+
+            color: #FBF8EA;
+
+        }
+
+        p {
+
+            color: #FBF8EA;
+
+        }
+
+    }
+
+    .linha.azul {
+
+        background-color: #FBF8EA;
+
+    }
+
+
+    .bloco2 {
+
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+
+        padding: 200px 100px;
+
+        background-color: #FBF8EA;
+
+
+
+        background: linear-gradient(to bottom, #227eca 0%, #4991cf 5%, #68a4d4 10%, #87b6d8 15%, #fbf8ea 45%);
+
+        h2 {
+
+            font-size: 70px;
+
+            color: #227ECA;
+
+            font-family: "Urbanist";
+
+        }
+
+        p {
+
+            font-size: 25px;
+            line-height: 50px;
+
+            color: #227ECA;
+
+            font-family: "News Cycle";
+
+        }
+
+    }
+
+    .bloco3 {
+
+        padding: 100px;
+
+        background-color: #FBF8EA;
+
+        text-align: end;
+
+
+
+        h2 {
+
+            font-size: 70px;
+
+            color: #227ECA;
+
+
+            font-family: "Urbanist";
+
+            margin-top: -100px;
+
+        }
+
+        p {
+
+            font-size: 25px;
+            line-height: 50px;
+
+            color: #227ECA;
+
+
+            font-family: "News Cycle";
+
+        }
+
+    }
+
+    .bloco4 {
+
+        padding: 275px 100px;
+
+        background-color: #FBF8EA;
+
+
+
+        h2 {
+
+            font-size: 70px;
+
+            color: #227ECA;
+
+
+            font-family: "Urbanist";
+
+            margin-top: -150px;
+
+        }
+
+        p {
+
+            font-size: 25px;
+            line-height: 50px;
+
+            color: #227ECA;
+
+
+            font-family: "News Cycle";
+
+        }
+
+    }
+
+    .bloco5 {
+
+        padding: 275px 100px;
+
+        background-color: #FBF8EA;
+
+        text-align: end;
+
+
+
+
+        h2 {
+
+            font-size: 70px;
+
+            color: #227ECA;
+
+            font-family: "Urbanist";
+
+            margin-top: -350px;
+
+        }
+
+        p {
+
+            font-size: 25px;
+            line-height: 50px;
+
+            color: #227ECA;
+
+            font-family: "News Cycle";
+
+        }
+
+    }
+
+
+    .bloco6 {
+
+        padding: 275px 100px;
+
+        background-color: #FBF8EA;
+
+
+        h2 {
+
+            font-size: 70px;
+
+            color: #227ECA;
+
+            font-family: "Urbanist";
+
+            margin-top: -350px;
+
+        }
+
+        p {
+
+            font-size: 25px;
+            line-height: 50px;
+
+            color: #227ECA;
+
+            font-family: "News Cycle";
+
+        }
+
+        li {
+
+            font-size: 25px;
+            line-height: 50px;
+
+            color: #227ECA;
+
+            font-family: "News Cycle";
+
+        }
+
+    }
+
+
+    .bloco7 {
+
+        padding: 200px 100px;
+
+        background-color: #FBF8EA;
+
+
+        text-align: end;
+
+
+        h2 {
+
+            font-size: 70px;
+
+            color: #227ECA;
+
+            font-family: "Urbanist";
+
+            margin-top: -300px;
+
+        }
+
+        p {
+
+            font-size: 25px;
+            line-height: 50px;
+
+            color: #227ECA;
+
+            font-family: "News Cycle";
+
+        }
+
+    }
+
+    .bloco8 {
+
+        padding: 275px 100px;
+
+        background: linear-gradient(to bottom, #FBF8EA, #9FC4DC, #76ADD6);
+
+
+        h2 {
+
+            font-size: 70px;
+
+            color: #227ECA;
+
+
+            font-family: "Urbanist";
+
+            margin-top: -150px;
+
+        }
+
+        a {
+
+            color: #165283;
+
+            font-weight: bold;
+
+        }
+
+        a:hover {
+
+            background-color: transparent;
+
+            font-size: 103%;
+
+        }
+
+        p {
+
+            font-size: 25px;
+            line-height: 50px;
+
+            color: #227ECA;
+
+
+            font-family: "News Cycle";
+
+        }
+
+    }
+
+    #linha-footer {
+
+        height: 1px;
         width: 100%;
-        height: 400px;
 
-        padding-top: 30px;
-
-    }
-
-    #calcada {
-
-        z-index: 1;
-
-        margin-top: -215px;
-
-        width: 100%;
-        height: 275px;
+        background-color: #113E64;
 
     }
 
 }
 
-.bloco2 {
 
-    display: flex;
-    flex-direction: column;
-    justify-content: space-around;
-
-    padding: 200px 100px;
-
-    background-color: #FBF8EA;
-
-
-
-    background: linear-gradient(to bottom, #227eca 0%, #4991cf 5%, #68a4d4 10%, #87b6d8 15%, #fbf8ea 45%);
-
-    h2 {
-
-        font-size: 70px;
-
-        color: #227ECA;
-
-        font-family: "Urbanist";
-
-    }
-
-    p {
-
-        font-size: 25px;
-        line-height: 50px;
-
-        color: #227ECA;
-
-        font-family: "News Cycle";
-
-    }
-
-}
-
-.bloco3 {
-
-    padding: 100px;
-
-    background-color: #FBF8EA;
-
-    text-align: end;
-
-
-
-    h2 {
-
-        font-size: 70px;
-
-        color: #227ECA;
-
-
-        font-family: "Urbanist";
-
-        margin-top: -100px;
-
-    }
-
-    p {
-
-        font-size: 25px;
-        line-height: 50px;
-
-        color: #227ECA;
-
-
-        font-family: "News Cycle";
-
-    }
-
-}
-
-.bloco4 {
-
-    padding: 275px 100px;
-
-    background-color: #FBF8EA;
-
-
-
-    h2 {
-
-        font-size: 70px;
-
-        color: #227ECA;
-
-
-        font-family: "Urbanist";
-
-        margin-top: -150px;
-
-    }
-
-    p {
-
-        font-size: 25px;
-        line-height: 50px;
-
-        color: #227ECA;
-
-
-        font-family: "News Cycle";
-
-    }
-
-}
-
-.bloco5 {
-
-    padding: 275px 100px;
-
-    background-color: #FBF8EA;
-
-    text-align: end;
-
-
-
-
-    h2 {
-
-        font-size: 70px;
-
-        color: #227ECA;
-
-        font-family: "Urbanist";
-
-        margin-top: -350px;
-
-    }
-
-    p {
-
-        font-size: 25px;
-        line-height: 50px;
-
-        color: #227ECA;
-
-        font-family: "News Cycle";
-
-    }
-
-}
-
-
-.bloco6 {
-
-    padding: 275px 100px;
-
-    background-color: #FBF8EA;
-
-
-    h2 {
-
-        font-size: 70px;
-
-        color: #227ECA;
-
-        font-family: "Urbanist";
-
-        margin-top: -350px;
-
-    }
-
-    p {
-
-        font-size: 25px;
-        line-height: 50px;
-
-        color: #227ECA;
-
-        font-family: "News Cycle";
-
-    }
-
-    li{
-
-        font-size: 25px;
-        line-height: 50px;
-    
-        color: #227ECA;
-    
-        font-family: "News Cycle";
-    
-    }
-
-}
-
-
-.bloco7 {
-
-    padding: 200px 100px;
-
-    background: linear-gradient(to bottom, #FBF8EA, #9FC4DC, #76ADD6);
-
-
-    text-align: end;
-
-
-    h2 {
-
-        font-size: 70px;
-
-        color: #227ECA;
-
-        font-family: "Urbanist";
-
-        margin-top: -300px;
-
-    }
-
-    p {
-
-        font-size: 25px;
-        line-height: 50px;
-
-        color: #227ECA;
-
-        font-family: "News Cycle";
-
-    }
-
-}
-
-#linha-footer {
-
-    height: 1px;
-    width: 100%;
-
-    background-color: #113E64;
-
-}
 
 footer {
 
@@ -552,7 +887,7 @@ a:active {
         text-align: center;
 
 
-        h1{
+        h1 {
 
             margin-left: 50px;
 
@@ -596,9 +931,20 @@ a:active {
 
             display: flex;
 
+            padding-top: 75px;
+
+            height: 500px;
+
+
         }
 
-        .menu li{
+        .menu.active.azul {
+
+            background-color: #DEE7E6;
+
+        }
+
+        .menu li {
 
             padding: 20px;
 
@@ -623,6 +969,12 @@ a:active {
 
         }
 
+        .hamburguer.azul .linha-hamburguer {
+
+            background-color: #227ECA;
+
+        }
+
 
     }
 
@@ -636,6 +988,12 @@ a:active {
     #linha {
 
         margin-left: 125px;
+
+    }
+
+    .cores.active {
+
+        padding: 700px 75px;
 
     }
 
@@ -717,7 +1075,7 @@ a:active {
 
         }
 
-        .menu li{
+        .menu li {
 
             padding: 0px;
 
@@ -747,7 +1105,7 @@ a:active {
             height: 3px;
 
             margin-left: 5px;
-    
+
         }
 
     }
@@ -762,6 +1120,39 @@ a:active {
 
         margin-left: 75px;
         margin-top: 75px;
+
+    }
+
+    .cores {
+
+
+        padding: 110px 65px;
+
+        justify-content: space-evenly;
+
+        .gradient {
+
+            height: 15px;
+            width: 15px;
+
+        }
+
+
+        .creme {
+
+            height: 15px;
+            width: 15px;
+
+        }
+
+
+
+        .azul {
+
+            height: 15px;
+            width: 15px;
+
+        }
 
     }
 
