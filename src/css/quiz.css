@@ -1,31 +1,1114 @@
-h1 {
-    color:rgb(36, 47, 171); 
-    text-align: center;
+@font-face {
+    font-family: "Varela";
+    src: url("../assets/fonts/Varela_Round/VarelaRound-Regular.ttf");
 }
 
-h2 {
-    color:black;
-    text-align: center;
+@font-face {
+    font-family: "Urbanist";
+    src: url("../assets/fonts/Urbanist/Urbanist-VariableFont_wght.ttf");
 }
 
-h4 {
-    text-align: center;
+@font-face {
+    font-family: "News Cycle";
+    src: url("../assets/fonts/News_Cycle/NewsCycle-Regular.ttf");
 }
 
-.gabarito {
-    display: none;
-  }
 
-#opcoes {
-  display: flex;
-  flex-direction: column;
-  gap: 10px;        
-  max-width: 500px;               
-  margin: 20px auto;              
-  padding: 5px;
-  background-color:rgb(204, 229, 255);
+
+
+html {
+
+    scroll-behavior: smooth;
+
 }
 
-button {
-    background-color:rgb(255, 255, 255);
+body {
+
+    margin: 0px;
+    padding: 0px;
+
+}
+
+header {
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    position: fixed;
+
+    background-color: #6aa7d5;
+    border-radius: 50px;
+
+    width: 95%;
+    height: 75px;
+
+    padding: 15px;
+    margin-top: 15px;
+    margin-left: 15px;
+
+
+
+    overflow: hidden;
+
+    box-shadow: 0px 10px 20px #227eca54;
+
+    h1 {
+
+        color: #FBF8EA;
+
+        font-family: "Urbanist";
+        font-weight: 300;
+
+        padding-left: 150px;
+
+    }
+
+    .secoes {
+
+
+        padding-left: 800px;
+
+        a {
+
+            color: #FBF8EA;
+
+            text-decoration: none;
+
+            padding: 15px;
+
+            font-family: "Urbanist";
+
+
+
+        }
+
+    }
+
+    .menu {
+
+        display: none;
+
+        list-style: none;
+
+        margin: 0px;
+        padding: 0px;
+
+        justify-content: space-between;
+
+    }
+
+    .menu a {
+
+        color: #FBF8EA;
+
+        text-decoration: none;
+
+        padding: 15px 25px;
+
+        font-family: "Urbanist";
+
+        transition: 0.3s;
+
+        border-radius: 50px;
+
+    }
+
+    .menu a:hover {
+
+        font-size: 120%;
+
+    }
+
+    .hamburguer {
+
+        display: none;
+
+        cursor: pointer;
+
+        flex-direction: column;
+        justify-content: space-between;
+
+        width: 30px;
+        height: 20px;
+
+    }
+
+    .hamburguer .linha-hamburguer {
+
+        width: 100%;
+        height: 3px;
+
+        background-color: #FBF8EA;
+
+        transition: 0.3s;
+
+        border-radius: 50px;
+
+    }
+
+}
+
+
+.cabecalho.azul {
+
+    background-color: #DEE7E6;
+
+    h1 {
+
+        color: #227ECA;
+
+    }
+
+    a {
+
+        color: #227ECA;
+
+    }
+
+    .hamburguer.azul {
+
+        color: #DEE7E6;
+
+        a {
+
+            color: #227ECA;
+
+        }
+
+
+        #linha-menu {
+
+            background-color: #227ECA;
+
+        }
+
+    }
+
+
+}
+
+#linha {
+
+    margin-left: 275px;
+    margin-top: 250px;
+
+
+    height: 1px;
+    width: 50%;
+
+    background-color: #227ECA;
+
+}
+
+
+
+
+.cores {
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+
+    width: 200px;
+
+    position: fixed;
+
+    padding: 140px 75px;
+
+
+    .gradient {
+
+        background: linear-gradient(to bottom, #FBF8EA 0%, #FBF8EA 45%, #6aa7d5 75%, #227ECA 85%, #227ECA 100%);
+
+        border: 2px solid #113E64;
+        border-radius: 50px;
+
+        height: 30px;
+        width: 30px;
+
+    }
+
+    .gradient:hover {
+
+        cursor: pointer;
+
+    }
+
+    .creme {
+
+        background-color: #FBF8EA;
+
+        border: 2px solid #113E64;
+        border-radius: 50px;
+
+        height: 30px;
+        width: 30px;
+
+    }
+
+    .creme:hover {
+
+        cursor: pointer;
+
+    }
+
+    .azul {
+
+        background-color: #75ADD6;
+
+        border: 2px solid #113E64;
+        border-radius: 50px;
+
+        height: 30px;
+        width: 30px;
+
+    }
+
+    .azul:hover {
+
+        cursor: pointer;
+
+    }
+
+}
+
+section {
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    padding: 225px 0px;
+
+    background: linear-gradient(to bottom, #FBF8EA, #9FC4DC, #76ADD6);
+
+    h1 {
+
+        font: 75px "Varela";
+
+        color: #227ECA;
+
+        margin-top: -15px;
+
+    }
+
+
+
+
+
+    .quiz {
+
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: center;
+
+        background-color: #6AA6D4;
+
+        width: 1200px;
+
+        height: 150%;
+
+        padding: 150px 0px;
+
+        border-radius: 50px;
+
+        margin-bottom: 300px;
+
+        h2 {
+
+            font: 45px "Urbanist";
+
+            color: #FBF8EA;
+
+            max-width: 600px;
+
+            text-align: center;
+
+
+
+        }
+
+        p {
+
+            color: #FBF8EA;
+
+            font: 45px "News Cycle";
+            font-weight: 1000;
+
+
+
+        }
+
+        .opcoes {
+
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+            align-items: center;
+
+            height: 300px;
+
+            padding: 100px 100px;
+
+            button {
+
+                border: none;
+                border-radius: 50px;
+
+                background-color: transparent;
+
+                font: 25px "News Cycle";
+
+                color: #FBF8EA;
+
+                padding: 25px;
+
+
+            }
+
+            button:hover {
+
+                cursor: pointer;
+
+                font-size: 27px;
+
+                background-color: #227ECA;
+
+                transition: 0.3s;
+
+
+
+            }
+
+        }
+
+        #proxima {
+
+            height: 75px;
+
+            width: 150px;
+
+            border: 2px solid #113E64;
+            border-radius: 50px;
+
+            background-color: #FBF8EA;
+
+            font: 20px "News Cycle";
+
+            color: #113E64;
+
+        }
+
+        #proxima:hover {
+
+            cursor: pointer;
+
+            height: 80px;
+
+            width: 160px;
+
+            border-radius: 100px;
+
+            transition: 0.3s;
+
+        }
+
+    }
+
+    .conjunto-gabarito {
+
+        height: 200px;
+
+        button {
+
+            padding: 25px;
+
+            border: 2px solid #113E64;
+            border-radius: 50px;
+
+            color: #FBF8EA;
+
+            font: 20px "Urbanist";
+
+            background-color: #113E64;
+
+
+        }
+
+        button:hover {
+
+            padding: 30px;
+
+            border-radius: 75px;
+
+            transition: 0.3s;
+
+        }
+
+        .fechar {
+
+            display: none;
+
+        }
+
+        .gabarito {
+
+            display: none;
+            flex-direction: column;
+            justify-content: space-between;
+            align-items: center;
+
+            padding: 75px 0px;
+
+            h2 {
+
+                font: 45px "Varela";
+
+            }
+
+            .items {
+
+                display: flex;
+                flex-direction: row;
+                justify-content: space-between;
+
+                width: 250px;
+
+
+                .esquerda {
+
+                    display: flex;
+                    flex-direction: column;
+                    justify-content: space-between;
+                    align-items: center;
+
+                    p {
+
+                        font: 20px "News Cycle";
+
+                    }
+
+                }
+
+                .direita {
+
+                    display: flex;
+                    flex-direction: column;
+                    justify-content: space-between;
+                    align-items: center;
+
+
+                    p {
+
+                        font: 20px "News Cycle";
+
+                    }
+
+                }
+
+            }
+
+        }
+
+        .conjunto-gabarito.active {
+
+            height: 800px;
+
+        }
+
+        .mostrar.active {
+
+            display: none;
+
+        }
+
+        .fechar.active {
+
+            display: inline;
+
+            margin-left: 35px;
+
+        }
+
+        .gabarito.active {
+
+            display: flex;
+
+            margin-top: -350px;
+
+        }
+
+    }
+
+
+}
+
+.fundo.creme {
+
+    background: #FBF8EA;
+
+}
+
+
+.fundo.azul {
+
+    background: #75ADD6;
+
+    h1 {
+
+        color: #FBF8EA;
+
+    }
+
+    .quiz {
+
+        background-color: #FBF8EA;
+
+        h2 {
+
+            color: #227ECA;
+
+        }
+
+        button {
+
+            color: #227ECA;
+
+        }
+
+        button:hover {
+
+            color: #FBF8EA;
+
+        }
+
+        p {
+
+            color: #227ECA;
+
+        }
+
+        #proxima {
+
+            background-color: #227ECA;
+
+            color: #FBF8EA;
+
+        }
+
+    }
+
+    .conjunto-gabarito {
+
+        button {
+
+            background-color: #227ECA;
+
+        }
+
+        .gabarito {
+
+            h2 {
+
+                color: #FBF8EA;
+
+            }
+
+            p {
+
+                color: #FBF8EA;
+
+            }
+
+        }
+
+    }
+
+}
+
+footer {
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+
+    background: linear-gradient(to bottom, #5C9FD2, #165283);
+
+    padding: 25px 35px;
+    padding-bottom: 75px;
+
+    height: 300px;
+
+    h3 {
+
+        color: #FBF8EA;
+
+        font-size: 35px;
+
+        font-family: "Urbanist";
+
+    }
+
+    a {
+
+        color: #FBF8EA;
+
+        text-decoration: none;
+
+        font-family: "Urbanist";
+
+
+    }
+
+    .botoes-footer {
+
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+        align-items: center;
+
+        width: 100%;
+
+    }
+
+
+}
+
+a {
+
+    border-radius: 50px;
+    padding: 15px;
+
+}
+
+a:hover {
+
+    background-color: #87b6d8;
+
+    font-size: 110%;
+
+    transition: 0.3s;
+
+}
+
+a:active {
+
+    transition: 0.3s ease;
+
+}
+
+
+
+@media (max-width: 768px) {
+
+    header {
+
+        width: 90%;
+
+        margin-left: 25px;
+
+        h1 {
+
+            padding-left: 75px;
+
+        }
+
+        .secoes {
+
+
+            padding-left: 0px;
+
+            a {
+
+                display: none;
+
+            }
+
+        }
+
+        .menu {
+
+            flex-direction: column;
+
+            margin-left: 25px;
+
+            width: 94%;
+            height: 15%;
+
+            background-color: #6aa7d5;
+
+            margin-top: 25px;
+            padding: 25px 0px;
+
+            border-radius: 0px 0px 37px 37px;
+
+            position: fixed;
+
+            cursor: pointer;
+
+            top: 60px;
+            left: 0;
+
+            text-align: center;
+
+            box-shadow: 0px 10px 20px #227eca54;
+
+        }
+
+        .menu a {
+
+            color: #FBF8EA;
+
+            text-decoration: none;
+
+            padding: 15px 25px;
+
+            font-family: "Urbanist";
+
+            transition: 0.3s;
+
+            border-radius: 50px;
+
+        }
+
+        .menu a:hover {
+
+            font-size: 120%;
+
+        }
+
+        .hamburguer {
+
+            display: flex;
+
+            margin-left: 250px;
+
+        }
+
+        .menu.active {
+
+            display: flex;
+
+            padding-top: 75px;
+
+            height: 250px;
+
+        }
+
+
+        .menu.active.azul {
+
+            background-color: #DEE7E6;
+
+        }
+
+        .menu li {
+
+            padding: 0px;
+
+        }
+
+        .menu a {
+
+            padding: 15px;
+
+        }
+
+        #linha-menu {
+
+
+            height: 1px;
+
+            width: 35%;
+
+            margin: 5px;
+
+            margin-left: 200px;
+
+            background-color: #227ECA;
+
+
+        }
+
+        .hamburguer .linha-hamburguer {
+
+            width: 75%;
+            height: 3px;
+
+            margin-left: 5px;
+
+        }
+
+        .hamburguer.azul .linha-hamburguer {
+
+            background-color: #227ECA;
+
+        }
+
+
+
+    }
+
+    .cabecalho.active {
+
+        border-radius: 50px 50px 0px 0px;
+
+    }
+
+    .cores.active {
+
+        padding: 450px 75px;
+
+    }
+
+
+    section {
+
+        .quiz {
+
+            width: 600px;
+
+            p {
+
+                width: 450px;
+
+                text-align: center;
+
+            }
+
+        }
+
+        h2 {
+
+            width: 500px;
+
+        }
+
+    }
+
+}
+
+
+
+@media (max-width: 320px) {
+
+
+    header {
+
+        width: 80%;
+
+        margin-left: 20px;
+
+        h1 {
+
+            font-size: 25px;
+
+            padding-left: 35px;
+
+        }
+
+        .menu {
+
+            margin-left: 20px;
+
+            width: 89.5%;
+
+        }
+
+        .hamburguer {
+
+            display: flex;
+
+            margin-left: 5px;
+
+        }
+
+
+        #linha-menu {
+
+            width: 35%;
+
+            margin-left: 100px;
+
+
+        }
+
+
+    }
+
+    .cabecalho.active {
+
+        border-radius: 50px 50px 0px 0px;
+
+    }
+
+    .cores.active {
+
+        padding: 450px 75px;
+
+    }
+
+    .cores {
+
+        margin: 0px -15px;
+
+        justify-content: space-evenly;
+
+        .gradient {
+
+            height: 15px;
+            width: 15px;
+
+        }
+
+
+        .creme {
+
+            height: 15px;
+            width: 15px;
+
+        }
+
+
+
+        .azul {
+
+            height: 15px;
+            width: 15px;
+
+        }
+
+    }
+
+    section {
+
+        h1 {
+
+            font-size: 35px;
+
+        }
+
+        .quiz {
+
+            width: 275px;
+
+            border-radius: 35px;
+
+            margin-bottom: 300px;
+
+            h2 {
+
+                font-size: 25px;
+
+                max-width: 250px;
+
+                margin-top: -50px;
+
+            }
+
+            p {
+
+                font-size: 15px;
+
+                width: 150px;
+
+                text-align: center;
+
+            }
+
+            .opcoes {
+
+                height: 300px;
+
+                padding: 100px 100px;
+
+                width: 250px;
+
+                button {
+
+                    border-radius: 35px;
+
+                    font-size: 20px;
+
+                    padding: 15px;
+
+
+                }
+
+                button:hover {
+
+                    font-size: 22px;
+
+                }
+
+            }
+
+
+        }
+
+        h2 {
+
+            width: 500px;
+
+        }
+
+
+        .conjunto-gabarito {
+
+            .gabarito {
+
+                h2 {
+
+                    font-size: 35px;
+
+                    margin-left: 350px;
+
+                }
+
+                .items {
+
+                    width: 175px;
+
+
+                    .esquerda {
+
+                        p {
+
+                            font-size: 15px;
+
+                        }
+
+                    }
+
+                    .direita {
+
+
+                        p {
+
+                            font-size: 15px;
+
+                        }
+
+                    }
+
+                }
+
+            }
+
+
+            .fechar.active {
+
+                margin-left: 325px;
+
+            }
+
+
+        }
+
+    }
+
 }

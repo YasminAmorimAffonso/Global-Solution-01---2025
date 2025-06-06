@@ -139,6 +139,12 @@ document.addEventListener("DOMContentLoaded", () => {
 
     gradient.addEventListener("click", () => {
 
+            menu.classList.remove("creme");
+            
+            cabecalho.classList.remove("creme");
+
+            hamburguer.classList.remove("creme");
+
             titulo.classList.remove("creme");
 
             problema.classList.remove("creme");
@@ -156,8 +162,14 @@ document.addEventListener("DOMContentLoaded", () => {
             quiz.classList.remove("creme");
 
 
-            titulo.classList.remove("azul");
+            menu.classList.remove("azul");
 
+            cabecalho.classList.remove("azul");
+    
+            hamburguer.classList.remove("azul");
+    
+            titulo.classList.remove("azul");
+    
             problema.classList.remove("azul");
     
             solucoes.classList.remove("azul");
@@ -200,6 +212,8 @@ menu.querySelectorAll("a").forEach(item => {
             menu.classList.remove("active");
 
             cabecalho.classList.remove("active");
+
+            cores.classList.remove("active");
 
 
         }

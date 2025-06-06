@@ -51,6 +51,7 @@ header {
 
     overflow: hidden;
 
+    box-shadow: 0px 10px 20px #227eca54;
 
     h1 {
 
@@ -485,6 +486,12 @@ section {
         p {
 
             color: #FBF8EA;
+
+            a {
+
+                color: #FBF8EA;
+
+            }
 
         }
 
@@ -935,6 +942,8 @@ a:active {
 
             height: 500px;
 
+            box-shadow: 0px 10px 20px #227eca54;
+
 
         }
 
@@ -1002,15 +1011,19 @@ a:active {
 
         h1 {
 
-            font-size: 50px;
+            font-size: 35px;
+
+            text-align: center;
 
         }
 
         h3 {
 
-            font-size: 20px;
+            text-align: center;
 
-            margin-top: 0px;
+            font-size: 15px;
+
+            margin-top: 10px;
             margin-bottom: 100px;
 
         }
@@ -1035,14 +1048,14 @@ a:active {
 
         padding: 0px 0px;
 
-        margin-left: 35px;
+        margin-left: 30px;
 
 
         h1 {
 
             font-size: 20px;
 
-            margin-left: -125px;
+            margin-left: -70px;
 
         }
 
@@ -1061,6 +1074,8 @@ a:active {
             border-radius: 0px 0px 37px 37px;
 
             position: fixed;
+
+            cursor: pointer;
 
             top: 60px;
             left: 0;
@@ -1126,7 +1141,7 @@ a:active {
     .cores {
 
 
-        padding: 110px 65px;
+        margin: 0px -15px;
 
         justify-content: space-evenly;
 
