@@ -98,8 +98,9 @@ const textoPergunta = document.getElementById("pergunta");
 const listaAlternativas = document.getElementById("opcoes");
 const botaoAvancar = document.getElementById("proxima");
 const exibirResultado = document.getElementById("resultado");
-const botaoGabarito = document.getElementById("mostrarGabarito");
-const gabarito = document.querySelector(".gabarito");
+const mostrarBotao = document.getElementById('mostrarBotao');
+const fecharBotao = document.getElementById('fecharBotao');
+const gabarito2 = document.querySelector('.gabarito');
 
 function mostrarQuestao() {
   const item = perguntas[questaoAtual];
@@ -140,10 +141,15 @@ botaoAvancar.addEventListener("click", () => {
   }
 });
 
-botaoGabarito.addEventListener("click", () => {
-  gabarito.style.display = "block";
-  botaoGabarito.style.display = "none"; 
-});
+ mostrarBotao.addEventListener('click', () => {
+      gabarito2.style.display = 'block';
+      mostrarBotao.style.display = 'none';
+    });
+
+fecharBotao.addEventListener('click', () => {
+      gabarito2.style.display = 'none';
+      mostrarBotao.style.display = 'inline';
+    });
 
 function finalizarQuiz() {
   textoPergunta.textContent = "Você finalizou o quiz!";
