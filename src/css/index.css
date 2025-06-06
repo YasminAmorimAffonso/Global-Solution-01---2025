@@ -149,7 +149,7 @@ header {
 
     background-color: #DEE7E6;
 
-    h1{
+    h1 {
 
         color: #227ECA;
 
@@ -880,7 +880,6 @@ a:active {
 
 
 
-
 @media (max-width: 768px) {
 
     header {
@@ -1007,32 +1006,36 @@ a:active {
     }
 
 
-    .bloco1 {
+    section {
 
-        h1 {
+        .bloco1 {
 
-            font-size: 35px;
+            h1 {
 
-            text-align: center;
+                font-size: 55px;
 
-        }
+                text-align: center;
 
-        h3 {
+            }
 
-            text-align: center;
+            h3 {
 
-            font-size: 15px;
+                text-align: center;
 
-            margin-top: 10px;
-            margin-bottom: 100px;
+                font-size: 20px;
 
-        }
+                margin-top: 10px;
+                margin-bottom: 100px;
 
-        #agua {
+            }
 
-            height: 200px;
+            #agua {
 
-            padding-top: 30px;
+                height: 200px;
+
+                padding-top: 30px;
+
+            }
 
         }
 
@@ -1061,7 +1064,7 @@ a:active {
 
         .menu {
 
-            margin-left: 35px;
+            margin-left: 30px;
 
             width: 80%;
             height: 25%;
@@ -1081,12 +1084,6 @@ a:active {
             left: 0;
 
             text-align: center;
-
-        }
-
-        .menu.active {
-
-            display: flex;
 
         }
 
@@ -1138,219 +1135,257 @@ a:active {
 
     }
 
-    .cores {
+
+    section {
+
+        .cores {
 
 
-        margin: 0px -15px;
+            margin: -25px -15px;
+    
+            justify-content: space-evenly;
+    
+            .gradient {
+    
+                height: 15px;
+                width: 15px;
+    
+            }
+    
+    
+            .creme {
+    
+                height: 15px;
+                width: 15px;
+    
+            }
+    
+    
+    
+            .azul {
+    
+                height: 15px;
+                width: 15px;
+    
+            }
+    
+        }
+    
+        .cores.active {
 
-        justify-content: space-evenly;
+            padding: 725px 75px;
+    
+        }
 
-        .gradient {
+        .bloco1 {
 
-            height: 15px;
-            width: 15px;
+            padding-top: 200px;
+
+            text-align: center;
+
+
+
+            h1 {
+
+                font-size: 25px;
+
+            }
+
+            h3 {
+
+                font-size: 15px;
+
+                margin-top: 0px;
+                margin-bottom: 50px;
+
+                max-width: 350px;
+
+            }
+
+            #agua {
+
+                height: 150px;
+
+            }
+
+
+        }
+
+        .bloco2 {
+
+            padding: 100px 25px;
+
+            h2 {
+
+                font-size: 30px;
+
+            }
+
+            p {
+
+                font-size: 15px;
+                line-height: 35px;
+
+            }
+
+        }
+
+        .bloco3 {
+
+
+            padding: 100px 25px;
+
+            h2 {
+
+                font-size: 30px;
+
+            }
+
+            p {
+
+                font-size: 15px;
+                line-height: 35px;
+
+            }
+
+        }
+
+        .bloco4 {
+
+            padding: 100px 25px;
+
+            h2 {
+
+                font-size: 30px;
+
+            }
+
+            p {
+
+                font-size: 15px;
+                line-height: 35px;
+
+            }
+
+        }
+
+        .bloco5 {
+
+            padding: 300px 25px;
+
+            h2 {
+
+                font-size: 30px;
+
+            }
+
+            p {
+
+                font-size: 15px;
+                line-height: 35px;
+
+            }
 
         }
 
 
-        .creme {
-
-            height: 15px;
-            width: 15px;
-
-        }
+        .bloco6 {
 
 
+            padding: 100px 25px;
 
-        .azul {
+            h2 {
 
-            height: 15px;
-            width: 15px;
+                font-size: 30px;
 
-        }
+            }
 
-    }
+            li {
 
+                font-size: 15px;
+                line-height: 35px;
 
-    .bloco1 {
-
-        padding-top: 200px;
-
-        text-align: center;
-
-
-
-        h1 {
-
-            font-size: 25px;
-
-        }
-
-        h3 {
-
-            font-size: 15px;
-
-            margin-top: 0px;
-            margin-bottom: 50px;
-
-            max-width: 350px;
-
-        }
-
-        #agua {
-
-            height: 150px;
+            }
 
         }
 
 
-    }
-
-    .bloco2 {
-
-        padding: 100px 25px;
-
-        h2 {
-
-            font-size: 30px;
-
-        }
-
-        p {
-
-            font-size: 15px;
-            line-height: 35px;
-
-        }
-
-    }
-
-    .bloco3 {
+        .bloco7 {
 
 
-        padding: 100px 25px;
+            padding: 300px 25px;
 
-        h2 {
+            h2 {
 
-            font-size: 30px;
+                font-size: 30px;
+
+            }
+
+            p {
+
+                font-size: 15px;
+                line-height: 35px;
+
+            }
 
         }
 
-        p {
+        .bloco8 {
 
-            font-size: 15px;
-            line-height: 35px;
 
-        }
+            padding: 100px 35px;
 
-    }
+            margin-top: -225px;
 
-    .bloco4 {
+            h2 {
 
-        padding: 100px 25px;
+                font-size: 30px;
 
-        h2 {
+            }
 
-            font-size: 30px;
+            p {
 
-        }
+                font-size: 15px;
+                line-height: 35px;
 
-        p {
+                a {
 
-            font-size: 15px;
-            line-height: 35px;
+                    margin-left: -10px;
+                    margin-right: -10px
 
-        }
+                }
 
-    }
-
-    .bloco5 {
-
-        padding: 300px 25px;
-
-        h2 {
-
-            font-size: 30px;
+            }
 
         }
 
-        p {
 
-            font-size: 15px;
-            line-height: 35px;
+        footer {
 
-        }
+            text-align: center;
 
-    }
+            h3 {
 
+                font-size: 35px;
 
-    .bloco6 {
+            }
 
+            a {
 
-        padding: 100px 25px;
+                font-size: 15px;
 
-        h2 {
+            }
 
-            font-size: 30px;
-
-        }
-
-        p {
-
-            font-size: 15px;
-            line-height: 35px;
-
-        }
-
-    }
-
-
-    .bloco7 {
-
-
-        padding: 300px 25px;
-
-        h2 {
-
-            font-size: 30px;
-
-        }
-
-        p {
-
-            font-size: 15px;
-            line-height: 35px;
-
-        }
-
-    }
-
-
-    footer {
-
-        text-align: center;
-
-        h3 {
-
-            font-size: 35px;
 
         }
 
         a {
 
-            font-size: 15px;
+            border-radius: 50px;
+            padding: 15px;
 
         }
 
 
     }
-
-    a {
-
-        border-radius: 50px;
-        padding: 15px;
-
-    }
-
-
 }
